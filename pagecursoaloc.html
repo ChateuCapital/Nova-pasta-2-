@@ -1,0 +1,1109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title></title>
+
+		
+<style type="text/css">
+@import url("fontawesome-all.min.css");
+body{
+				margin: 0;
+
+			}
+			#menu ul{
+				background-color: #272833; 
+				list-style: none;
+				
+														/* aqui é  a parte de cima no css da pagina ( area do aluno ) onde tem os botoes de sair */
+
+			}
+			#menu ul li{
+				
+				display: inline;
+				position: relative;
+
+
+
+			}
+			#menu ul li a{
+				padding: 10px 25px;
+				display: inline-block;
+
+				
+				color: white;
+				font-style: 'arial', sans-serif;
+
+			}
+			#menu ul li a:hover{
+				color: #e44c65;
+			}
+
+
+*{
+		margin: 0;
+		padding: 0;
+}
+
+
+body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+	}
+
+	.nav_tabs{
+		width: 60px;
+		height: 500px;
+		margin: 100px auto;
+		box-sizing: border-box
+		background-color: #fff;
+		position: absolute;
+		top: -60px;
+		left: 1px;
+	}
+
+	.nav_tabs ul{
+		list-style: none;
+		box-sizing: border-box;
+	}
+
+	.nav_tabs ul li{
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.tab_label{
+		display: block;
+		width: 100px;
+		box-sizing: border-box;
+		background-color: #272833;
+		padding: 15px;
+		font-size: 15px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_tabs .rd_tab { 
+	display:none;
+	position: relative;
+}
+
+.nav_tabs .rd_tab:checked ~ label { 
+	box-sizing: border-box;
+	background-color: #e44c65;
+	color:#fff;}
+
+.tab-content{
+	border-top: solid 5px orange;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: auto;
+	width: auto;
+	
+	left: 100px;	
+}
+
+.rd_tab:checked ~ .tab-content{
+	display: block;
+}
+
+
+.tab-content h2{
+	padding: 10px;
+	border-top: solid 5px orange;
+	background-color: inherit;
+	display: none;
+	
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #87d3b7;
+}
+.tab-content article{
+	padding: 10px;
+	color: #555;
+	cursor: pointer;
+	
+	position: absolute;
+	top: auto;
+	left: 1px;
+	}
+}
+/* parte dentro dos modulos */
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body{
+		background-color: #ddd;
+		font-family: 'Roboto Condensed';
+	}
+
+	.nav_aulas{
+		width: 60px;
+		height: 400px;
+		margin: 100px auto;
+		box-sizing: border-box
+		background-color: #fff;
+		position: absolute;
+		top: -150px;
+		left: 1px;
+	}
+
+	.nav_aulas ul{
+		list-style: none;
+	}
+
+	.nav_aulas ul li{
+		float: left;
+	}
+
+	.aula_label{
+		display: block;
+		width: 100px;
+		box-sizing: border-box;
+		background-color: #363b48;
+		padding: 15px;
+		font-size: 15px;
+		color:#fff;
+		cursor: pointer;
+		text-align: center;
+	}
+
+
+	.nav_aulas .rd_aula { 
+	display:none;
+	position: absolute;
+}
+
+.nav_aulas .rd_aula:checked ~ label { 
+	background-color: #e44c65;
+	color:#fff;}
+
+.aula-content{
+	border-top: solid 5px orange;
+	background-color: #fff;
+	display: none;
+	position: absolute;
+	height: auto;
+	width: auto;
+	top: -5px;
+	left: 100px;	
+}
+
+.rd_aula:checked ~ .aula-content{
+	display: block;
+}
+
+
+.aula-content h2{
+	padding: 10px;
+	border-top: solid 5px orange;
+	background-color: #DCDCDC;
+	display: none;
+	
+	height: 1280px;
+	width: 720px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+	color: #87d3b7;
+}
+.aula-content article{
+	padding: 10px;
+	background-color: inherit;
+	color: #555;
+	cursor: pointer;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	
+	
+	}
+.aula-content p{
+	padding: 10px;
+	background-color: inherit;
+	position: absolute;
+	width:720px; 
+	height:300;
+	top: 80px;
+	left: 210px;
+}
+.aula-content h1{
+	padding: 10px;
+	color: black;
+	font-size: 27pt;
+	font-family: 'Arial';
+	position: absolute;
+	top: 20px;
+	left: 320px;
+}
+
+/* aqui entra o css dos player de video */
+
+</style>
+<link rel="stylesheet" type="" href="">
+<body>
+	<div id ="menu">
+			<ul>
+				<li><a href="#">olá, (nome do aluno)</a></li>
+				
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="index.html">Home</a></li>
+
+
+				<li><a href="#">Sair da area do Aluno</a></li>
+				
+			</ul>
+	</div>
+	<nav class="nav_tabs">
+			<ul>
+				
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab2">
+					<label for="tab2" class="tab_label">Módulo 1</label>
+					<div class="tab-content">
+						
+						<article>
+								<nav class="nav_aulas">
+									<ul>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula1">
+											<label for="aula1" class="aula_label">Aula 1</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													<h1>Aula 1 - Indução de preços</h1>
+														
+													
+													<p>
+														<iframe width="740" height="480" src="https://www.youtube.com/embed/x2Suyy8Kb4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+													</p>
+													<li>
+
+														
+													</li>
+
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula2">
+											<label for="aula2" class="aula_label">Aula 2</label>
+											<div class="aula-content">
+												
+												<article>
+													<h1>Link da aula aqui</h1>
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula3">
+											<label for="aula3" class="aula_label">Aula 3</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula4">
+											<label for="aula4" class="aula_label">Aula 4</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula5">
+											<label for="aula5" class="aula_label">Aula 5</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula6">
+											<label for="aula6" class="aula_label">Aula 6</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula7">
+											<label for="aula7" class="aula_label">Aula 7</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula8">
+											<label for="aula8" class="aula_label">Aula 8</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula9">
+											<label for="aula9" class="aula_label">Aula 9</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula10">
+											<label for="aula10" class="aula_label">Aula 10</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+									</ul>
+								</nav>
+						</article>		
+						
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab3">
+					<label for="tab3" class="tab_label">Módulo 2</label>
+					<div class="tab-content">
+						
+						<article>
+								<nav class="nav_aulas">
+									<ul>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula11">
+											<label for="aula1" class="aula_label">Aula 1</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula12">
+											<label for="aula2" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula13">
+											<label for="aula3" class="aula_label">Aula 3</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula14">
+											<label for="aula4" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula15">
+											<label for="aula5" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula16">
+											<label for="aula6" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula17">
+											<label for="aula7" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula18">
+											<label for="aula8" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula19">
+											<label for="aula9" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula20">
+											<label for="aula10" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+
+									</ul>
+								</nav>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab4">
+					<label for="tab4" class="tab_label">Módulo 3</label>
+					<div class="tab-content">
+						<h2>Title 3</h2>
+						<article>
+								<nav class="nav_aulas">
+									<ul>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula1">
+											<label for="aula1" class="aula_label">Aula 1</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													<nav class="nav_jan">
+														<ul>
+															<li>
+																<input type="radio" name="jan" class="rd_jan" id="jan1">
+																<div class="jan_content"></div>
+															</li>  <!---aqui entra os players -->
+														</ul>
+													</nav>
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula2">
+											<label for="aula2" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula3">
+											<label for="aula3" class="aula_label">Aula 3</label>
+											<div class="aula-content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula4">
+											<label for="aula4" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula5">
+											<label for="aula5" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula6">
+											<label for="aula6" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula7">
+											<label for="aula7" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula8">
+											<label for="aula8" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula9">
+											<label for="aula9" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aulas" class="rd_aula" id="aula10">
+											<label for="aula10" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+
+									</ul>
+								</nav>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab5">
+					<label for="tab5" class="tab_label">Módulo 4</label>
+					<div class="tab-content">
+						<h2>Title 4</h2>
+						<article>
+								<nav class="nav_aula">
+									<ul>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula11">
+											<label for="aula11" class="aula_label">Aula 1</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula12">
+											<label for="aula12" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula13">
+											<label for="aula13" class="aula_label">Aula 3</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula14">
+											<label for="aula14" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula15">
+											<label for="aula15" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula16">
+											<label for="aula16" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula17">
+											<label for="aula17" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula18">
+											<label for="aula18" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula19">
+											<label for="aula19" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula20">
+											<label for="aula20" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab6">
+					<label for="tab6" class="tab_label">Módulo 5</label>
+					<div class="tab-content">
+						<h2>Title 2</h2>
+						<article>
+								<nav class="nav_aula">
+									<ul>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula11">
+											<label for="aula11" class="aula_label">Aula 1</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula12">
+											<label for="aula12" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula13">
+											<label for="aula13" class="aula_label">Aula 3</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula14">
+											<label for="aula14" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula15">
+											<label for="aula15" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula16">
+											<label for="aula16" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula17">
+											<label for="aula17" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula18">
+											<label for="aula18" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula19">
+											<label for="aula19" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula20">
+											<label for="aula20" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab7">
+					<label for="tab7" class="tab_label">Módulo 6</label>
+					<div class="tab-content">
+						<h2>Title 2</h2>
+						<article>
+								<nav class="nav_aula">
+									<ul>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula11">
+											<label for="aula11" class="aula_label">Aula 1</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula12">
+											<label for="aula12" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula13">
+											<label for="aula13" class="aula_label">Aula 3</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula14">
+											<label for="aula14" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula15">
+											<label for="aula15" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula16">
+											<label for="aula16" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula17">
+											<label for="aula17" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula18">
+											<label for="aula18" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula19">
+											<label for="aula19" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula20">
+											<label for="aula20" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab8">
+					<label for="tab8" class="tab_label">Módulo 7</label>
+					<div class="tab-content">
+						<h2></h2>
+						<article>
+								<nav class="nav_aula">
+									<ul>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula11">
+											<label for="aula11" class="aula_label">Aula 1</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula12">
+											<label for="aula12" class="aula_label">Aula 2</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula13">
+											<label for="aula13" class="aula_label">Aula 3</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula14">
+											<label for="aula14" class="aula_label">Aula 4</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula15">
+											<label for="aula15" class="aula_label">Aula 5</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula16">
+											<label for="aula16" class="aula_label">Aula 6</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula17">
+											<label for="aula17" class="aula_label">Aula 7</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula18">
+											<label for="aula18" class="aula_label">Aula 8</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula19">
+											<label for="aula19" class="aula_label">Aula 9</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+											</div>
+										</li>
+										<li>
+											<input type="radio" name="aula" class="rp_aula" id="aula20">
+											<label for="aula20" class="aula_label">Aula 10</label>
+											<div class="aula_content">
+												<h2>Link da aula aqui</h2>
+												<article>
+													
+												</article>
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab9">
+					<label for="tab9" class="tab_label">Módulo 8</label>
+					<div class="tab-content">
+						<h2>Title 2</h2>
+						<article>
+						Sed sit amet mauris vitae lorem pretium congue. Donec pulvinar auctor est, a porta ipsum vulputate ac. Ut sit amet sollicitudin ante. Sed gravida nulla et nibh consequat sagittis. Donec eu justo eu tortor elementum scelerisque. Mauris mollis volutpat tellus, id volutpat massa ultricies vel. Donec mollis arcu leo, ac ullamcorper eros viverra ut. Aliquam cursus justo nec purus condimentum, eu dignissim nunc mattis. Sed fermentum sollicitudin felis mattis malesuada. Quisque tempor tellus a odio euismod, non suscipit justo laoreet. Curabitur vel urna lorem. Pellentesque semper justo leo, in tristique ex porta at. Sed justo massa, lobortis quis hendrerit ac, eleifend vitae tellus. 
+						</article>
+					</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" class="rd_tab" id="tab10">
+					<label for="tab10" class="tab_label">Módulo 9</label>
+					<div class="tab-content">
+						<h2>Title 2</h2>
+						<article>
+						Sed sit amet mauris vitae lorem pretium congue. Donec pulvinar auctor est, a porta ipsum vulputate ac. Ut sit amet sollicitudin ante. Sed gravida nulla et nibh consequat sagittis. Donec eu justo eu tortor elementum scelerisque. Mauris mollis volutpat tellus, id volutpat massa ultricies vel. Donec mollis arcu leo, ac ullamcorper eros viverra ut. Aliquam cursus justo nec purus condimentum, eu dignissim nunc mattis. Sed fermentum sollicitudin felis mattis malesuada. Quisque tempor tellus a odio euismod, non suscipit justo laoreet. Curabitur vel urna lorem. Pellentesque semper justo leo, in tristique ex porta at. Sed justo massa, lobortis quis hendrerit ac, eleifend vitae tellus. 
+						</article>
+					</div>
+				</li>
+				
+				
+
+			</ul>
+		</nav>
+</body>
+</html>
